@@ -8,12 +8,17 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    publicPath: "/",
   },
   resolve: {
     extensions: [".js", ".jsx"],
     alias: {
       "@styles": path.resolve(__dirname, "src/styles"),
+      "@components": path.resolve(__dirname, "src/components"),
+      "@pages": path.resolve(__dirname,"src/pages"),
+      "@containers": path.resolve(__dirname,"src/containers"),
       "@logos": path.resolve(__dirname, "src/assets/logos"),
+      "@icons": path.resolve(__dirname, "src/assets/icons"),
     },
   },
   mode: "development",
