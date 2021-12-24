@@ -1,5 +1,6 @@
 import React from "react";
 import "@styles/CardProduct.scss";
+import bt_add_to_cart from "@icons/bt_add_to_cart.svg";
 const CardProduct = () => {
   return (
     <div class="product-card">
@@ -13,7 +14,7 @@ const CardProduct = () => {
           <p>Bike</p>
         </div>
         <figure>
-          <img src="./icons/bt_add_to_cart.svg" alt="" />
+          <img src={bt_add_to_cart} alt="" />
         </figure>
       </div>
     </div>
