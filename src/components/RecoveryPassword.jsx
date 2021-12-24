@@ -1,5 +1,5 @@
 import React from "react";
-import "@styles/Login.scss";
+import "@styles/RecoveryPassword.scss";
 import sale from "@logos/logo_yard_sale.svg";
 const Login = () => {
   return (
